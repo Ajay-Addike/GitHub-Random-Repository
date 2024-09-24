@@ -5,6 +5,14 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f2f5;
+    align-items: flex-start;
+    /* padding: 20px; */
+}
+
+.card-content {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    justify-content: center; /* Center content horizontally */
 }
 
 .card {
@@ -15,15 +23,20 @@ body {
     width: 300px;
     text-align: center;
     transition: box-shadow 0.3s ease;
-    margin-top: -700px; 
+    margin-top: 20px; 
 }
 
-/* section{
-    text-align: center;
-} */
+.card svg {
+    /* margin-right: 10px; Space between the SVG and the text */
+    height: 32px; /* Ensure consistent height */
+    width: 32px;  /* Ensure consistent width */
+}
 
-.mainHeader{
-    height: 32px;
-
+.mainHeader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap; /* Ensure the text doesn't wrap */
+    flex-grow: 1; /* Allow the text to take the remaining space */
 }
 
