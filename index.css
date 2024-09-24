@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    margin-top: -700px; 
+}
+
+/* section{
+    text-align: center;
+} */
+
+.mainHeader{
+    height: 32px;
+
+}
+
